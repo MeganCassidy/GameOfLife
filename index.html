@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game of Life</title>
+</head>
+<body>
+    
+    <h1> Game of Life </h1>
+    <p>Build your initial colony by clicking the squares.</p>
+    <p>Then hit 'Start Game' to begin.</p>
+    <p>Rules: 
+        <ul>
+            <li>Any live cell with fewer than two live neighbors dies.</li>
+            <li>Any live cell with two or three live neighbors lives on to the next generation.</li>
+            <li>Any live cell with more than three live neighbors dies.</li>
+            <li>Any dead cell with exactly three live neighbors becomes a live cell.</li>
+        </ul>
+    </p>
+    <label for="colorSelector">Select Color:</label>
+    <input type="color" id="colorSelector">
+    <input type='button' class="clickbtn" id='btnstartstop' value='Start Game' onclick='startStopGol();'/>
+    <input type='button' class="clickbtn" id='btnreset' value='Reset Game' onclick='resetWorld();'/>
+    <button class="clickbtn" onclick="darkMode()">Dark Mode</button>
+    
+    <div id="world">
+
+    </div>
+
+    
+
+    <!-- JavaScript File linked -->
+    <script src="script.js"></script>
+</body>
+</html>

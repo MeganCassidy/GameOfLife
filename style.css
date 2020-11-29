@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    color: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+#worldgrid{
+    margin: auto;
+}
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+#world{
+    padding-bottom: 10px;
+}
+
+table{
+    background-color: whitesmoke;
+}
+
+td{
+    border: 1px solid darkgray;
+    width: 18px;
+    height: 18px;
+}
+
+td.dead {
+    background-color: darkgrey;
+}
+td.alive {
+   background-color:;
+}
+
+.clickbtn{
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    color: black;
+    height: 3em;
+    border: none;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+  
